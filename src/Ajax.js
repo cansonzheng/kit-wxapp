@@ -42,7 +42,7 @@ export const Ajax=o=>{
             cache.update(res);
             cache.save();
           }
-          resolve(res);
+          if(resolve) resolve(res);
         }else{
           if(reject) reject(res);
         }
