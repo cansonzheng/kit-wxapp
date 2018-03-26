@@ -1,0 +1,23 @@
+{
+  "name": "kit-wxapp",
+  "version": "1.0.0",
+  "description": "微信小程序扩展库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cansonzheng/kit-wxapp.git"
+  },
+  "author": "Canson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cansonzheng/kit-wxapp/issues"
+  },
+  "homepage": "https://github.com/cansonzheng/kit-wxapp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}
