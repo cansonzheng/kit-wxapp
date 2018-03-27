@@ -43,7 +43,7 @@ export const Ajax=o=>{
       }
     }
     // 请求数据
-    if(o.loading) wx.showLoading({title:typeof o.loading==='string'?o.loading:'加载中'});
+    if(o.loading) wx.showLoading({title:typeof o.loading==='string'?o.loading:'加载中',mask:true});
 
     // 如果设置了请求目录
     let ajaxConfig=getApp().data.ajaxConfig||{};
